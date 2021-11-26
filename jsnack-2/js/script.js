@@ -1,7 +1,7 @@
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
 
-// ciclo for
+// // ciclo for
 const invitati = ['Giovanni', 'Luca', 'Leonardo', 'Martina', 'Emma', 'Veronica'];
 const nomeUtente = prompt ('Come ti chiami?');
 let find = false;
@@ -16,8 +16,10 @@ for (let index = 0; index < invitati.length; index++) {
 
 if (find) {
   console.log('Puoi partecipare alla festa');
+  document.writeln('Puoi partecipare alla festa');
 } else {
   console.log ('Non puoi partecipare alla festa');
+  document.writeln('Non puoi partecipare alla festa');
 }
 
 // ciclo while
@@ -37,6 +39,8 @@ while (index < invitati.length) {
 
 if (find) {
   console.log('Puoi partecipare alla festa');
+  document.writeln('Puoi partecipare alla festa');
 } else {
   console.log('Non puoi partecipare alla festa');
+  document.writeln('Non puoi partecipare alla festa');
 }

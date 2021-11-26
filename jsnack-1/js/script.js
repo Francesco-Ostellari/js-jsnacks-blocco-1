@@ -9,6 +9,7 @@ for (let index = 1; index <= 10; index++) {
   somma += numberUser;
 }
 console.log(somma);
+document.writeln('il risultato è: ', somma);
 
 // ciclo while
 
@@ -22,3 +23,4 @@ while (i<=10) {
   i++;
 }
 console.log(somma);
+document.writeln('il risultato è: ', somma);
